@@ -1,0 +1,169 @@
+.container-principal-footer-gris{
+    width: 100%;
+    background-color: #3D3D3B;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
+    /* margin-top: 90px; */
+  }
+  .subcontainer-footer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: baseline; */
+    justify-content: center;
+    align-content: stretch;
+  }
+.box-informacion-footer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-seccion-text{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+
+
+.box-redes-footer{
+    width: 50%;
+    display: flex;
+}
+.box-texto-footer,.ultimo-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.contenedor-redes{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.box-imagen-footer{
+    margin-top: 10px;
+    text-align: left;
+}
+.box-texto-footer-line{
+    color: rgba(72, 172, 51, 1) !important;
+    font-weight: 400 !important;
+}
+.info-footer{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 200;
+}
+.button-scrollToTop{
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.subbox-redes-footer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.subbox-redes-scroll{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.fotoFlecha{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media (max-width: 765px) {
+.subcontainer-footer{
+flex-direction: column;
+width:90%;
+row-gap: 15px;
+}
+.container-principal-footer-gris {
+    height: 65vh;
+    margin-top: 10px;
+}
+.box-informacion-footer{
+    text-align: left;
+    width: 100%;
+    row-gap: 15px;
+    
+}
+.box-redes-footer{
+    width: 100%;
+}
+/* .button-scrollToTop{
+    display: none;
+} */
+.subbox-redes-footer{
+    width: 100%;
+    column-gap: 10px;
+    justify-content: flex-start;
+}
+.contenedor-redes{
+    width: 40px;
+    height: 40px;
+}
+.contenedor-redes img{
+    width: 50%;
+}
+.button-scrollToTop{
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+.info-footer{
+    font-size: 13px;
+}
+.subcontainer-footer{
+    flex-direction: column;
+    row-gap: 20px;  
+}
+.box-redes-footer{
+    width: 100%;
+}
+.subbox-redes-footer {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    align-items: flex-end;
+}
+.button-scrollToTop{
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media (min-width:1024px) and (max-width: 1440px) {
+.subbox-redes-footer{
+width: 65%;
+}
+.container-principal-footer-gris{
+    height: 50vh;
+}
+}

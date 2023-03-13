@@ -1,0 +1,209 @@
+.container-principal-periodistas {
+    width: 100%;
+    height: 87vh;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.subcontainer-periodistas {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-periodistas {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.info-periodistas hr {
+    border-top: 2px solid #C6C7C4;
+}
+
+.periodista-box-publicaciones {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nombre-periodista {
+    font-size: 35px;
+    font-weight: 700;
+    color: #48AC33;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+.avatar-periodista {
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.avatar-periodista.rs-avatar>.rs-avatar-image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.descripcion-periodista {
+    font-size: 18px;
+    font-weight: 500;
+    color: #48AC33;
+    font-family: 'Roboto';
+}
+
+.box-descripcion-periodista {
+    width: 60%;
+}
+
+.contenedor-publicaciones-periodista {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contenedor-publicaciones-periodista a {
+    width: 50%;
+}
+
+.contenedor-publicaciones-periodista .tarjetaHorizontal {
+    height: 200px !important
+}
+
+.contenedor-publicaciones-periodista .titulo-tarjeta-horizontal {
+    font-size: 18px !important;
+    line-height: 22px;
+}
+
+.contenedor-publicaciones-periodista .subtitulo-tarjeta-horizontal {
+    font-size: 16px !important;
+    line-height: 20px;
+}
+
+.contenedor-publicaciones-periodista .autor-tarjeta-horizontal {
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+
+
+.contenedor-paginacion-publicaciones-periodista {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-principal-periodistas .foto-tarjeta-horizontal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-periodista img {
+    object-fit: cover;
+}
+
+.container-principal-periodistas .subtitulo-tarjeta-horizontal{
+    -webkit-line-clamp: 2;
+}
+
+@media (min-width:320px) and (max-width: 765px) {
+    .container-principal-periodistas {
+        height: auto;
+        flex-direction: column;
+        margin-top: 90px;
+        padding-top: 40px;
+        row-gap: 30px;
+    }
+
+    .contenedor-paginacion-publicaciones-periodista {
+        margin-bottom: 40px;
+    }
+
+    .contenedor-publicaciones-periodista .titulo-tarjeta-horizontal {
+        font-size: 18px !important;
+        line-height: 19px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+    }
+
+    .info-periodistas {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .box-descripcion-periodista {
+        width: 90%;
+    }
+
+
+    .periodista-box-publicaciones {
+        width: 90%;
+        row-gap: 20px;
+    }
+
+    .contenedor-publicaciones-periodista a {
+        width: 100%;
+    }
+
+    .contenedor-publicaciones-periodista .tarjetaHorizontal {
+        height: 180px !important
+    }
+
+    .container-principal-periodistas .foto-tarjeta-horizontal,
+    .container-principal-periodistas .box-texto-tarjetas-horizontal {
+        width: 100%;
+    }
+
+    .container-principal-periodistas .foto-tarjeta-horizontal {
+        border-right: 2px solid #48AC33;
+        padding-right: 10px;
+        border-radius: 0px !important;
+    }
+
+    .container-principal-periodistas .box-texto-tarjetas-horizontal {
+        row-gap: 0px;
+    }
+
+    .container-principal-periodistas .box-texto-tarjetas-horizontal .subtitulo-tarjeta-horizontal {
+        word-break: break-all;
+    }
+
+    .contenedor-publicaciones-periodista {
+        row-gap: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .box-descripcion-periodista {
+        width: 90%;
+    }
+
+    .nombre-periodista {
+        font-size: 22px;
+    }
+
+    .container-principal-periodistas {
+        height: 83vh;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width: 1440px) {}

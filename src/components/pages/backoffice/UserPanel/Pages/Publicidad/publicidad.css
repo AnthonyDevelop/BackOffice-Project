@@ -1,0 +1,126 @@
+.tittle-publicidad {
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #3D3D3B;
+    text-align: left;
+}
+
+.container-image-publi{
+    width: 100%;
+    padding:10px;
+}
+
+.container-image-publi-top-secction{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subtittle-publi{
+    font-size: 1.5em;
+    color: #48ac33;
+    text-align: left;
+}
+
+.container-form-publi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 50px;
+}
+
+
+
+.child-form-publi{
+    border: 1px solid #48ac33;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    column-gap: 30px;
+}
+
+.button-save-publicidad{
+    color: white;
+    padding: 10px 20px;
+    background: #606060;
+    border-radius: 7px;
+    position: fixed;
+    display: block;
+    right: 25vw;
+    top: 20%;
+}
+
+.publicidad-seccion-botones{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+column-gap: 10px;
+}
+.recomendado-texto{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.boton-file-subir{
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    height: 30px;
+    padding: 0px 25px;
+    background: #48ac33;
+    border-radius: 7px;
+}
+.boton-file-eliminar{
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    height: 30px;
+    padding: 0px 25px;
+    background: #ac3333;
+    border-radius: 7px;
+}
+
+.container-input{
+    margin: 10px 0px;
+}
+
+.container-image-publi .container-input img{
+object-fit: cover;
+width: 350px;
+height: 250px;
+}
+
+.container-image-publi .container-input video{
+    width: 350px;
+height: 250px;
+}
+
+
+
+@media (min-width:1024px) and (max-width: 1440px) {
+    .tittle-publicidad{
+        font-size: 1em;
+    }
+    .subtittle-publi{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+

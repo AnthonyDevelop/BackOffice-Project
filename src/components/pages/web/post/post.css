@@ -1,0 +1,119 @@
+.grid-gallery {
+    display: grid;
+    grid-auto-rows: 200px;
+    gap: 1rem;
+    grid-auto-flow: row dense;
+  }
+
+  .container-post-text .nombre-periodista{
+    text-transform: capitalize;
+  }
+  
+  @media all and (min-width: 320px) {
+    .grid-gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .grid-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .grid-gallery {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .grid-gallery__item:nth-child(11n+1) {
+    grid-column: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+  
+  .grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .child-card-borde{
+    border-left: 10px solid #59C53F;
+  }
+
+  @media (max-width: 765px) {
+    .child-card-borde{
+      width: 50%;
+      border-left: 4px solid #59C53F;
+      height: 490px;
+    }
+    .box-publicacion-post-completo{
+      width: 100% !important;
+      height: 200px !important;
+    }
+  
+  }
+
+  @media (min-width:768px) and (max-width: 1023px) {
+  .child-card-borde{
+    width: 240px;
+    height: 530px;
+  }
+  }
+
+  @media (min-width:1024px) and (max-width: 1440px) {
+    .child-card-borde{
+      width: 300px;
+    }
+  }
+
+  @media (min-width:1440px) and (max-width: 1700px) {
+    .child-card-borde{
+      width: 420px;
+    }
+    .subbox-titulo {
+      width: 90% !important;
+  }
+  .subcontainer-home-repetida{
+    width: 90% !important;
+  }
+  .subcontainer-home{
+    width: 90% !important;
+  }
+  .contenedor-youtube{
+    width: 90% !important;
+    height: 85% !important;
+  }
+
+  .tarjetaHorizontal {
+    width: 655px !important;
+    height: 245px !important;
+}
+.contenedor-tarjetas-recientes{
+  margin-top: 50px;
+}
+
+  }

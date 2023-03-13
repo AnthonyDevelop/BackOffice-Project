@@ -1,0 +1,187 @@
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button.rs-pagination-btn.rs-pagination-btn-active {
+  font-family: 'roboto' !important;
+  background-color: #47ac33c8 !important;
+  color: white !important;
+  border-color: #48AC33 !important;
+  font-weight: 600 !important;
+}
+
+button.rs-pagination-btn {
+  font-size: 14px !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-family: 'Roboto' !important;
+}
+
+/* #light {
+  background-color: white !important;
+} */
+.navbar-toggler-icon{
+  color: white !important;
+}
+
+#dark .App {
+  background-color: white;
+}
+
+#dark {
+  background-color: #353535 !important;
+}
+
+#dark :root {
+  background-color: #353535 !important;
+}
+
+#dark body {
+  background-color: #353535 !important;
+}
+
+#dark p {
+  color: white;
+}
+
+#dark h1 {
+  color: white;
+}
+
+#dark h3 {
+  color: white;
+}
+
+#dark .navbar {
+  color: #353535;
+}
+
+#dark .titulo-dolar {
+  color: white !important;
+}
+
+#dark .border-right {
+  color: white !important;
+}
+
+#dark .icono-search {
+  color: white !important;
+}
+
+#dark .container-principal-home-post-completo {
+  color: #353535 !important;
+}
+
+#dark .header-canvas-principal {
+  color: #353535 !important;
+}
+
+.dark .header-canvas-principal {
+  background-color: #353535 !important;
+}
+
+.dark .offcanvas-body {
+  background-color: #353535 !important;
+  height: 100vh;
+}
+
+.dark .link-normal {
+  color: white !important;
+}
+
+.dark .link-gris {
+  color: white !important;
+  background: #353535 !important;
+}
+
+#dark .navbar-toggler-icon {
+  color: white !important;
+}
+
+#dark .modal-content {
+  background-color: #353535 !important;
+}
+
+#dark .button-buscador {
+  background-color: white;
+  color: #353535;
+}
+
+#dark .icono-modal-buscador {
+  color: #353535 !important;
+}
+
+#dark button.rs-pagination-btn {
+  color: white !important;
+}
+
+#dark .btn-close {
+  color: white !important;
+}
+
+#dark .navbar {
+  background: #353535 !important;
+}
+
+#dark .navbar-nav {
+  background: #353535 !important;
+}
+
+#dark .background-color-grey {
+  background: #353535 !important;
+}
+
+#dark .background-color-white {
+  background: #353535 !important;
+}
+
+@media (max-width: 765px) {
+  #dark .cotizaciones-bolsa-container {
+    background-color: #353535;
+  }
+
+}
+/* a:any-link {
+  color: #48AC33;
+  font-weight: 600;
+} */

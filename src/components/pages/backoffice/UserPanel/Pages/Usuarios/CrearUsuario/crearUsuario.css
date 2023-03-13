@@ -1,0 +1,45 @@
+
+.container-input-usuario{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-usuario{
+    width: 100%;
+    text-align: left;
+}
+
+.child-form-container-usuario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+.container-input-usuario p{
+    width: 50%;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 2.5em;
+}
+
+.container-error{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-error .error{
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.select-style-suite{
+    width: 100%;
+}
